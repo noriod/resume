@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Converts a markdown resume to pdf",
+  "main": "index.js",
+  "dependencies": {
+    "markdown-pdf": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noriod/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Mathew Doiron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noriod/resume/issues"
+  },
+  "homepage": "https://github.com/noriod/resume#readme"
+}
