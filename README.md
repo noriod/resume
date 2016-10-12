@@ -18,20 +18,23 @@
 ### Expeditors, Seattle - **Developer III**
 **February 2015 - Present**
 
-Part of a team working towards migrating a legacy code base to a new platform based on the SoftwareAG WebMethods Integration Server as well as a custom Java framework.
-
 * Part of a team working towards migrating a legacy code base to a new platform based on the SoftwareAG WebMethods Integration Server as well as a custom Java framework.
+
 * Designed and implemented a Spring Boot application for scheduling messaging events via REST calls or file based triggers.
+
 * Create documentation and training for developers on the new migrated platform in addition to providing mentorship.
+
 * Lead a bi weekly collaboration session for discussion of new features and best practices.
+
 * Perform administration/maintenance/monitoring of Java application stack.
  
 ### Expeditors, Seattle - **Developer II** 
 **May 2012 - February 2015**
 
-Developed custom B2B Integrations in a variety of EDI formats to facilitate the automated exchange of business critical information between Expeditors and it’s customers.
+* Developed custom B2B Integrations in a variety of EDI formats to facilitate the automated exchange of business critical information between Expeditors and it’s customers.
 
 * Responsible for multiple phases of the SDLC including Development, Unit Testing, Deployment, and Support.
+
 * Successfully developed over 200 custom EDI integrations.
 
 ## Projects
