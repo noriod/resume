@@ -28,7 +28,7 @@
 
 * Perform administration/maintenance/monitoring of Java application stack.
 
-* Overhauled the team's build/deploy process in order to automate a large portion using Jenkins.
+* Overhauled the team's build/deploy process in order to automate a large portion using Jenkins/Apache Ant/Groovy.
  
 ### Expeditors, Seattle - **Developer II** 
 **May 2012 - February 2015**
