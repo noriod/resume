@@ -45,7 +45,7 @@
 
 This application solved the problem of needing to schedule data extracts from Expeditors internal systems at varying intervals based on when customers needed reports. 
 
-A custom front-end was written in AngularJS and Bootstrap to allow teams working on report creation to easily schedule reports. The back-end utilized the Quartz library to schedule the reports and custom Jobs were implemented for invoking REST service calls to generate the reports when the Jobs were triggered. The information about the schedules was saved to a MongoDB NoSQL database.
+A custom front-end was written in AngularJS and Bootstrap to allow teams working on report creation to easily schedule reports. The back-end utilized the Quartz library to schedule the reports. Custom Jobs were implemented for invoking REST service calls to generate the reports.
 
 Technologies Used: 
 * Java
@@ -57,7 +57,7 @@ Technologies Used:
 
 ### Code Documentation Generator
 
-Parses a proprietary xml based code base in order to extract comments and generate documentation in the form of static html pages similar to javadoc. This solved a problem at Expeditors where critical information was stored in the code comments making it only accessible via an IDE. With the creation of this tool non technical stakeholders are now able to access the documentation in a comfortable and familiar way.
+Parses a proprietary xml based code base in order to extract comments and generate documentation in the form of static html pages similar to javadoc. This solved a problem at Expeditors where critical information was stored in the code comments, making it only accessible via an IDE. With the creation of this tool, non technical stakeholders are now able to access the documentation in a comfortable and familiar way.
 
 Technologies Used:
 * Java
