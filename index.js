@@ -6,5 +6,11 @@ var markdownFileName = `${basePath}README.md`;
 var pdfFileName = `${basePath}resume.pdf`;
 
 fs.createReadStream(markdownFileName)
-  .pipe(markdownpdf({}))
+  .pipe(
+    markdownpdf(
+      {
+        "paperBorder": "1cm"
+      }
+    )
+  )
   .pipe(fs.createWriteStream(pdfFileName));
