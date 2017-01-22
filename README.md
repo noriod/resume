@@ -6,7 +6,7 @@
 
 ## Objective
 
->Multi-talented software developer looking for challenging problems to work on that will allow me to grow as a developer.
+>Multitalented software developer looking for challenging problems to work on that will help me grow both professionally and personally.
 
 ## Areas of Expertise
 * Object-Oriented design and programming
@@ -49,11 +49,12 @@
 
 ### Scheduling Application
 
-This application solved the problem of needing to schedule data extracts from Expeditors internal systems at varying intervals based on when customers needed reports. 
+This application solved the problem of needing to schedule data extracts from Expeditors internal systems at varying intervals in order to send reports to customers. Employees log in and configure when reports should be generated. At the specified time the application performs service calls to the EDI application to generate the report. Failures are captured and reported on a dashboard within the application as well as via email.
 
-A custom front-end was written in AngularJS and Bootstrap to allow teams working on report creation to easily schedule reports. The back-end utilized the Quartz library to schedule the reports. Custom Jobs were implemented for invoking REST service calls to generate the reports.
+**Front end**: AngularJS, Bootstrap
+**Back end**: Java, Spring, Quartz (Scheduling library)
+**Database**: MongoDB
 
-**Technologies Used:** Java, Spring Boot, Spring MVC, Spring Security, AngularJS, Bootstrap, MongoDB
 
 ### Continuous Integration Implementation
 
@@ -61,25 +62,26 @@ Setup a continuous integration environment for an EDI integration environment. P
 
 With the new continuous integration implementation in place, developers simply check their changes into Subversion and then tag specific revisions to an environment. Jenkins then detects the tagging an automatically builds, tests, and deploys their changes into the correct environment. This created significant time savings for developers in addition to cutting back on errors commonly made during the manual process.
 
-**Technologies Uses:** Jenkins, Subversion, Groovy, Ant 
+**Technologies Uses:** Jenkins, Subversion, Groovy, Ant
 
 --- 
 
 ## Skills
 
-Languages and frameworks
-* Java
-* Spring framework
-* Javascript
-* AngularJS
-* SoftwareAG WebMethods Flow
+### Languages and frameworks
+Java, Spring, Javascript, AngularJS, SoftwareAG WebMethods Flow
 
-Databases
-* SQL (DB2, MySQL)
-* NoSQL (MongoDB)
+### Databases
+SQL (DB2, MySQL), NoSQL (MongoDB)
 
-Tools
-* Maven
-* Git/Gitlab, Subversion
-* SoftwareAG WebMethods Stack
-* npm, gulp
+### Tools
+Maven, npm, Git/Gitlab, Subversion, SoftwareAG WebMethods Stack, Jenkins
+
+---
+
+## Education
+
+### Eastern Washington University, 2009 - 2012
+Bachelor of Arts, Computer Science
+Primary language: Java
+Focus: Web Application Development
